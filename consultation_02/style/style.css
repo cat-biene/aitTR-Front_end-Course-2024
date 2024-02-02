@@ -1,0 +1,52 @@
+body{ 
+   font-size: 32px;
+}
+
+.logo{
+   height: 70px;
+   width: 70px;
+}
+
+.book-img{
+   height: 150px;
+   object-fit: contain;
+
+}
+
+#add-book-form{ 
+   border: 2px solid black;
+   border-radius: 10px;
+   background-color: cornflowerblue; 
+   padding: 10px;
+   margin: 10px;
+}
+
+.books-list{
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+}
+
+.book{
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+   position: relative  ;
+}
+
+.book-new{
+   width: 50p;
+   height: 50px;
+   background-color: cadetblue;
+   border-radius: 50%;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   left: 10px;
+   top: 10px;
+
+}
+
+
