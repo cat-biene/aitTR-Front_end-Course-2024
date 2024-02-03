@@ -1,5 +1,5 @@
 .topic h2{
-    color: #8e44ad; 
+    color: #8e44ad;
 }
 
 .topic{
@@ -7,22 +7,19 @@
     background-color: #ecf0f1;
     border: 2px solid #8e44ad;
     border-radius: 10px;
-} 
+}
 
 .deals{
     background-color: #34495e;
-
-} 
+}
 
 .deals h2{
     color: #1abc9c;
     font-size: 35px;
 }
 
-.deals li{
+.deals ol{
     color: #ecf0f1;
-    font-size: 30px;
-    border: 2px solid black;
 }
 
 .deals .links{
@@ -38,11 +35,8 @@
     height: 50px;
 }
 
-.text{
-    border: 2px solid black;
-    width: 200px;
-}
-
-.link{
-    border: 2px solid black;
-}
+/* 
+    1. задать цвет заднего фона для раздела с расписанием #34495e
+    2. задать цвет текста пунктов в списке #ecf0f1
+    3. задать заголовку размер шрифта 35 пикселей и цвет текста #1abc9c
+*/
